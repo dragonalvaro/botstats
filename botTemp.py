@@ -1,7 +1,7 @@
 import telebot, urllib, re, time
 from telebot import types
 
-API_TOKEN = '785391201:AAFl25TBU_9CbtCQHiXgT2ZdkPoIkP5yVRI'
+API_TOKEN = '653272381:AAELYn9Rb1gNdnLOoCoyOmS79PFdFZtNX50'
 
 bot = telebot.TeleBot(API_TOKEN)
 
