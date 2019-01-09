@@ -1,0 +1,8 @@
+get==2018.11.19
+pkg-resources==0.0.0
+post==2018.11.20
+public==2018.11.20
+query-string==2018.11.20
+request==2018.11.20
+requests==2.7.0
+telebot==0.0.3
