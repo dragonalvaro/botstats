@@ -1,3 +1,4 @@
+# coding=utf-8
 import telebot, urllib, re, time
 from telebot import types
 
@@ -16,10 +17,7 @@ class User:
 # Handle '/start' and '/help'
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    msg = bot.reply_to(message, """\
-Bienvenido shur! el comando para ver tus estadísticas es "/shurstats""
-""")
-
+    msg = bot.reply_to(message, 'Bienvenido shur! el comando para ver tus estadísticas es /shurstats')
 
 @bot.message_handler(commands=['shurstats','SHURSTATS','Shurstats','ShurStats','sHURSTATS'])
 def fntstats(message):
