@@ -3,7 +3,7 @@ import telebot, urllib, re, time
 from telebot import types
 
 
-API_TOKEN = '285896652:AAEjzg55_oFFRyEN-sQi1V7aLqHdGWqKSZE'
+API_TOKEN = '653272381:AAELYn9Rb1gNdnLOoCoyOmS79PFdFZtNX50'
 
 bot = telebot.TeleBot(API_TOKEN)
 
