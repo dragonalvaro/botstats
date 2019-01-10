@@ -1,1 +1,1 @@
-python3 botTemp.py
+web: python3 botTemp.py
